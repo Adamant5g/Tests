@@ -16,7 +16,7 @@ class MainKtTest {
             transfer = transfer
         )
 
-        assertEquals(0,result)
+        assertEquals(1000,result)
     }
 
     @Test
@@ -31,7 +31,7 @@ class MainKtTest {
             transfer = transfer
         )
 
-        assertEquals(500,result)
+        assertEquals(300,result)
     }
 
     @Test
@@ -46,7 +46,7 @@ class MainKtTest {
             transfer = transfer
         )
 
-        assertEquals(0,result)
+        assertEquals(1000,result)
     }
 
     @Test
@@ -61,7 +61,7 @@ class MainKtTest {
             transfer = transfer
         )
 
-        assertEquals(500,result)
+        assertEquals(300,result)
     }
 
     @Test
@@ -76,7 +76,7 @@ class MainKtTest {
             transfer = transfer
         )
 
-        assertEquals(562,result)
+        assertEquals(300,result)
     }
 
     @Test
@@ -91,7 +91,7 @@ class MainKtTest {
             transfer = transfer
         )
 
-        assertEquals(35,result)
+        assertEquals(100,result)
     }
 
     @Test
@@ -106,7 +106,7 @@ class MainKtTest {
             transfer = transfer
         )
 
-        assertEquals(562,result)
+        assertEquals(300,result)
     }
 
     @Test
@@ -121,7 +121,7 @@ class MainKtTest {
             transfer = transfer
         )
 
-        assertEquals(35,result)
+        assertEquals(100,result)
     }
 
     @Test
@@ -136,7 +136,7 @@ class MainKtTest {
             transfer = transfer
         )
 
-        assertEquals(0,result)
+        assertEquals(100,result)
     }
 
 }
